@@ -21,24 +21,26 @@ This project consists of a command-line based Snake game with four difficulty le
 
 1. Place all files (`main.c`, `Easy.c`, `Normal.c`, `Expert.c`, `Master.c`, `Language_Model.py`, `AI_Assistant.py`, `Error_Fixing.bat`, `Start_Python.bat`) into a single directory.
 
-2. Compile the main C file:
+2. Initial work:
+   Run the following code: 
    ```sh
    gcc -o main.exe main.c
    ```
+  Then, run `pyinstaller --noconsole --onefile AI_Assistant.py` to package it as an exe file and place the packaged file in the main directory.
 
-3. Run the compiled program:
+4. Run the compiled program:
    - Double-click `main.exe` or run it from the command line:
      ```sh
      ./main.exe
      ```
 
-4. Follow the on-screen prompts to select the difficulty level:
+5. Follow the on-screen prompts to select the difficulty level:
    - 1: Easy
    - 2: Normal
    - 3: Expert
    - 4: Master
 
-5. The selected difficulty file (e.g., `Easy.c`) will be compiled and the game will start.
+6. The selected difficulty file (e.g., `Easy.c`) will be compiled and the game will start.
 
 ## Game Instructions
 
