@@ -20,24 +20,26 @@
 
 1. 将所有文件（`main.c`、`Easy.c`、`Normal.c`、`Expert.c`、`Master.c`、`Language_Model.py`、`AI_Assistant.py`、`Error_Fixing.bat`、`Start_Python.bat`）放入同一个目录。
 
-2. 编译主C文件：
+2. 初始工作：
+   运行以下代码以打包主程序：
    ```sh
    gcc -o main.exe main.c
    ```
+然后运行`pyinstaller --noconsole --onefile AI_Assistant.py` 将这个文件打包然后放入主目录。
 
-3. 运行编译后的程序：
+4. 运行编译后的程序：
    - 双击 `main.exe` 或在命令行中运行：
      ```sh
      ./main.exe
      ```
 
-4. 按照屏幕上的提示选择难度级别：
+5. 按照屏幕上的提示选择难度级别：
    - 1: 简单
    - 2: 普通
    - 3: 专家
    - 4: 大师
 
-5. 选择的难度文件（例如 `Easy.c`）将被编译并启动游戏。
+6. 选择的难度文件（例如 `Easy.c`）将被编译并启动游戏。
 
 ## 游戏说明
 
