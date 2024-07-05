@@ -43,6 +43,7 @@ This project consists of a command-line based Snake game with four difficulty le
 ## Game Instructions
 
 - The Snake game is played via the command line.
+
 ![image](https://github.com/ystemsrx/Snake-Game-with-AI/assets/140463276/e3900cdf-dcdd-4fa8-902e-d1af6d7910d6)
 
 - Use the `W`, `A`, `S`, `D` keys to control the snake's movement.
@@ -55,6 +56,7 @@ This project consists of a command-line based Snake game with four difficulty le
 - `Conversations.txt` is used to communicate between the C program and Python script.
 
 ![image](https://github.com/ystemsrx/Snake-Game-with-AI/assets/140463276/35b08d88-47bc-43b7-8149-eb66d409a5aa)
+
 ![image](https://github.com/ystemsrx/Snake-Game-with-AI/assets/140463276/7c1a8a9e-8469-4b96-9423-89f483989c61)
 
 ### Interaction Flow
